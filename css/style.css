@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Color styles */
+    --primary: #FFFFFF;
+    --secundary: #1A1A1A;
+    --brand: #FF6900;
+    --sales: #FF0000;
+    --sustain: #008000;
+}
