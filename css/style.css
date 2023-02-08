@@ -68,11 +68,14 @@ header nav {
     width: 100%;
 }
 /* Main */
+.row {
+    padding: 25px 0;
+}
 .col {
     width: calc(100% / 3);
 }
 .col article{
-    padding: 10px 5px;
+    padding: 15px 5px;
 }
 /* Photo */
 .photo img {
@@ -120,4 +123,15 @@ header nav {
 /* Footer */
 footer {
     background-color: var(--secundary);
+    padding: 15px 0;
+}
+.left-foot {
+    width: calc(100% / 3);
+}
+.left-foot ul {
+    font-size: 12px;
+}
+.right-foot p {
+    font-size: 14px;
+    text-align: center;
 }
