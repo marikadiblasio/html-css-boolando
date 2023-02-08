@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--primary);
 }
 :root {
     /* Color styles */
@@ -10,4 +11,52 @@
     --brand: #FF6900;
     --sales: #FF0000;
     --sustain: #008000;
+    --dark-text: #000000;
+}
+/* Temporary */
+.debug {
+    border: 1px solid blue;
+}
+/* General */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+/* Flex */
+.d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.just-between {
+    justify-content: space-between;
+}
+/* To Center */
+.just-center {
+    justify-content: center;
+}
+/* Header */
+header {
+    background-color: var(--brand);
+}
+/* Main */
+.col {
+    width: calc(100% / 3);
+}
+.col article{
+    padding: 10px 5px;
+}
+.photo img {
+    width: 100%;
+}
+.text * {
+    color: var(--dark-text);
+}
+/* Footer */
+footer {
+    background-color: var(--secundary);
 }
