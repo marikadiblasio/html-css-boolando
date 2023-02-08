@@ -18,6 +18,9 @@
 .debug {
     border: 1px solid blue;
 }
+.photo.deb-col {
+ color: blue;
+}
 /* General */
 .container {
     max-width: 1200px;
@@ -71,11 +74,48 @@ header nav {
 .col article{
     padding: 10px 5px;
 }
+/* Photo */
 .photo img {
     width: 100%;
 }
+.photo {
+    position: relative;
+}
+.tag {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.sale-tag {
+    background-color: var(--sales);
+    padding: 2px 3px;
+}
+.sustain-tag {
+    background-color: var(--sustain);
+    padding: 2px 3px;
+}
+.heart {
+    background-color: var(--primary);
+    color: var(--dark-text);
+    font-size: 2.1rem;
+    padding: 2px 15px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+/* Text */
 .text * {
     color: var(--dark-text);
+}
+.name-item {
+    text-transform: uppercase;
+}
+.sale-price {
+    color: var(--sales);
+    font-weight: 600;   
+}
+.full-price {
+    text-decoration: line-through;
 }
 /* Footer */
 footer {
