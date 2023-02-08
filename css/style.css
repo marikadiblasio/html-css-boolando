@@ -57,8 +57,13 @@ a {
 header {
     background-color: var(--brand);
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 10;
 }
-header nav {
+nav {
     padding: 10px 5px;
 }
 .center-nav {
@@ -68,6 +73,9 @@ header nav {
     width: 100%;
 }
 /* Main */
+main {
+    margin-top: 70px;
+}
 .row {
     padding: 25px 0;
 }
@@ -83,6 +91,7 @@ header nav {
 }
 .photo {
     position: relative;
+    cursor: pointer;
 }
 .tag {
     position: absolute;
@@ -105,6 +114,27 @@ header nav {
     position: absolute;
     right: 0;
     top: 15px;
+    cursor: pointer;
+}
+/* Hover */
+.img-b {
+    display: none;
+    position: absolute;
+
+}
+.photo:hover .img-b{
+    display: block;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%; */
+    /* z-index: 2; */
+}
+.photo:hover .img-b{
+    display: block;
+}
+.heart:hover{
+    color: red;
 }
 /* Text */
 .text * {
