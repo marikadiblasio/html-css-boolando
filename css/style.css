@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--primary);
+    font-family: 'Roboto', sans-serif;
 }
 :root {
     /* Color styles */
@@ -25,6 +26,16 @@
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+/* Padding */
+.left-pad {
+    padding-left: 10px;
+}
+.right-pad {
+    padding-right: 25px;
+}
 /* Flex */
 .d-flex {
     display: flex;
@@ -42,6 +53,16 @@ ul {
 /* Header */
 header {
     background-color: var(--brand);
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4);
+}
+header nav {
+    padding: 10px 5px;
+}
+.center-nav {
+    width: 170px;
+}
+.center-nav img {
+    width: 100%;
 }
 /* Main */
 .col {
