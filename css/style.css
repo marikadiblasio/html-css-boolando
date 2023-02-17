@@ -14,13 +14,6 @@
     --sustain: #008000;
     --dark-text: #000000;
 }
-/* Temporary */
-.debug {
-    border: 1px solid blue;
-}
-.photo.deb-col {
- color: blue;
-}
 /* General */
 .container {
     max-width: 1200px;
@@ -124,10 +117,6 @@ main {
 }
 .photo:hover .img-b{
     display: block;
-    /* position: absolute; */
-    /* top: 0;
-    left: 0; */
-    /* width: 100%; */
     /* z-index: 2; */
 }
 .photo:hover .img-b{
@@ -154,6 +143,9 @@ main {
 footer {
     background-color: var(--secundary);
     padding: 15px 0;
+}
+footer .container {
+    padding: 0 5px;
 }
 .left-foot {
     width: calc(100% / 3);
